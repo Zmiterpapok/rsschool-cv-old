@@ -1,1 +1,48 @@
-<p style="font-size: 32px;">Большой текст</p>
+@font-face {
+    font-family: 'Cantarell', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Cantarell&display=swap);
+    font-weight: 100;
+}
+.body {
+    font-family: 'Cantarell', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    border: 1px solid red;
+    font-family: 'Cantarell', sans-serif;
+}
+.article-header {
+    font-family: 'Cantarell', sans-serif;
+
+}
+.main {
+    font-family: 'Cantarell', sans-serif;
+    border: 1px solid rgb(0, 140, 255);
+}
+
+.footer {
+    font-family: 'Cantarell', sans-serif;
+    border: 1px solid red;
+}
+* {
+    box-sizing: border-box;
+  }
+  .body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .conteiner {
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  .nav-list {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  html {
+      scroll-behavior: smooth;
+  }
