@@ -35,3 +35,17 @@ return a * b;
 }
 ```
 *****
+### Education
+
+
+* **University:** Belarusian National Technological University, engineer chemist technologist
+*****
+### Languages
+
+
+ **languages**| **level**
+ -------------|:-----------------:
+ Belarussian  |native
+ Russian      |C1
+ Polish       |A2
+ English      |A2+ in process…)
