@@ -1,7 +1,7 @@
 ## Dima Popok
 
 
-![Foto](/img/myfoto.png "Foto for CV")
+![Foto for CV](/img/myfoto.png "Foto for CV")
 *****
 ### Contacts
 
