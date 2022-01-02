@@ -1,13 +1,26 @@
-@font-face {
-    font-family: 'Cantarell', sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=Cantarell&display=swap);
-    font-weight: 100;
+* {
+    box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth; 
+  }
 .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Cantarell', sans-serif;
     min-height: 100vh;
+    min-width: 320px;
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(228, 228, 42);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .header {
     font-family: 'Cantarell', sans-serif;
@@ -24,25 +37,15 @@
 .footer {
     font-family: 'Cantarell', sans-serif;
 }
-* {
-    box-sizing: border-box;
-  }
   .body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
   }
-  .container {
-      max-width: 1440px;
-      margin: 0 auto;
-  }
   .nav-list {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-  }
-  html {
-      scroll-behavior: smooth;
   }
   .nav-list {
       list-style: none;
@@ -66,7 +69,16 @@
   .section-item a:hover {
       color: rgb(10, 10, 10);
   }
-  .main-container {
+  .github-item a {
+    color: rgb(228, 228, 42);
+    transition: color 0.5s;
+    text-decoration: none;
+}
+.github-item a:hover {
+    color: rgb(10, 10, 10);
+}
+
+.main-container {
       display: flex;
       flex-wrap: wrap;
       border-bottom: rgb(228, 228, 42) solid 5px;
@@ -91,6 +103,30 @@
   .section-profile-foto:hover {
       filter: sepia(1);
   }
+
+
+
+
+  .footer {
+    background-color: #080808;
+    padding: 20px;
+    color: rgb(228, 228, 42);  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+  
   @media (max-width: 768px) {
     .section {
       width: 100%;
@@ -98,5 +134,9 @@
   .section-profile {
       flex-direction: column;
       align-items: center;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
   }
   }
