@@ -12,6 +12,7 @@
 .header {
     border: 1px solid red;
     font-family: 'Cantarell', sans-serif;
+    background-color: rgb(228, 228, 42);
 }
 .article-header {
     font-family: 'Cantarell', sans-serif;
@@ -52,9 +53,9 @@
   .nav-link {
       padding: 0 20px;
       line-height: 50px;
-      color: rgb(16, 214, 165);
+      color: rgb(0, 0, 0);
       text-decoration: none;
-      font-size: 20px;
+      font-size: 25px;
       transition: .3s;
   }
   .section-item a {
